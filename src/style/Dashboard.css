@@ -1,0 +1,93 @@
+.margin_disabled{
+  padding-right: 0px;
+}
+
+.sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        min-height: 100vh !important;
+        z-index: 100;
+        width: 50%;
+    }
+
+    .sidebar2 {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            min-height: 100vh !important;
+            z-index: 100;
+            border-top-left-radius: 40px;
+            border-bottom-left-radius: 40px;
+            height: 100%;
+        }
+    .kuepa_container{
+      height: 100%;
+      background: #f8f9fa;
+      border-top-left-radius: 40px;
+      border-bottom-left-radius: 40px;
+      padding: 2%;
+    }
+    .table-responsive-medium{
+      max-height: 20em;
+      overflow: auto;
+    }
+    .imagen{
+      max-height: 2em;
+      max-width: 2em
+    }
+    .td-imagen{
+      max-height: vmin;
+      max-width: vmin
+    }
+    .td-nombre{
+      max-width: vmin;
+      font-size: 0.5em;
+    }
+    .td-llamar{
+      max-width: vmin;
+      font-size: 0.5em;
+    }
+    .td-radio{
+      max-width: vmin;
+      font-size: 1em;
+    }
+    .card-img-1{
+      background: linear-gradient(70deg, red, purple);
+      color: linear-gradient(70deg, red, purple)
+    }
+    .card-img-2{
+      background: linear-gradient(70deg, purple, #67b3bf);
+      color:  linear-gradient(70deg, purple, #67b3bf);
+    }
+    .card-img-3{
+      background: linear-gradient(140deg, #67b3bf, white);
+      color: linear-gradient(140deg, #67b3bf, white);
+    }
+    .card{
+      background: white;
+      border-radius: 40%;
+    }
+    p{
+        border-radius: 10%;
+        font-size: 0.5em;
+    }
+    .card2{
+
+      filter:alpha(opacity=60);
+      opacity:.6;
+      border-radius: 40%;
+      width: 1%;
+      height: 5em;
+      border: 0px;
+
+    }
+    ::-webkit-scrollbar{
+      width:5px
+    }
+
+    ::-webkit-scrollbar-thumb{
+      background: #f8f9fa;
+    }
